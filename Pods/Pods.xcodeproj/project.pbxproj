@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F17F28CEF4880567E7BAB800D463D9A /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0189A25E8A021D4F4D0005EDD99F9E79 /* SVProgressHUD.m */; };
+		12E7B9107FE555B77CB35C729B56A325 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D5DFD7F9CFEED96C581F533D83624A /* SVRadialGradientLayer.m */; };
+		1C4F35092211F226DC56EFD272A292BC /* UINavigationController+FDFullscreenPopGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = C1376E5DE1F138BC1C75C7151A2A2FA9 /* UINavigationController+FDFullscreenPopGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27AE049E579F992A2D4F11EBBCF31F9F /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = B104BC1FE6D1A80468CBE30D61FDA258 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30297F1162F202035E327D49C1440C28 /* Pods-Tang-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 555611EAAFB27639019E90279DBB715E /* Pods-Tang-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3270E658B9ED3423F036CFFA6026DBAE /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 742A830493F408921639995FC8DCC05E /* SVIndefiniteAnimatedView.m */; };
+		332FB73228C4AECD0692166058BFD024 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D2A71C216C85D38F8B78B9F68F7322C /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42B4B9BC6D7306E605CF953DE5CE34E4 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = A86B0CCC4631ECECC78E18E0CF1443A7 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EEF2B07401AE60B32F79265EF79131E /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 408D15DD1FA0B7591C308818EF12920C /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BEAAE786885EF46BD595A31B23ED5BC /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 003CD73C19AEF2AC8E221ACE92EEA2B7 /* SVProgressHUD-dummy.m */; };
+		7128C7E8B721891E2EE28370AAB1BEEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
+		714483E788CC6CFE4C0B230668AB703F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
+		776702E8743007AC3AFC1E7F76299616 /* FDFullscreenPopGesture-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F303B9A7A6D8375064FB3FF96BDBE5 /* FDFullscreenPopGesture-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9738673DF20E91A233DA221748A43D7D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2770B482BFE91273C8560623F1422C /* QuartzCore.framework */; };
+		A24EF897F6B4FF11191A8010A8FA2439 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = A62627A6D90BAA8156086020CE91E765 /* SVProgressAnimatedView.m */; };
+		A402E4A234B9CE8C35B71BF90D2B35ED /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 80AC1E99453756F23DFC51AE12ACF1A8 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B84F960E74AE7F8A67099072C643F17F /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FAC01D55B35F70FC7CC67268D4796E /* UINavigationController+FDFullscreenPopGesture.m */; };
+		C183943192A3D267492E6A7CF25AB8D8 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6A4024BA66A411244682E984FB7FD441 /* SVProgressHUD.bundle */; };
+		D910D9C9061DFF37D3E2C65D4942B9BA /* Pods-Tang-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9128A0704E10ACD279C6C83F234C3EA /* Pods-Tang-dummy.m */; };
+		DBE1BDBEAB4931DFED7587F134BB9080 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
+		E5D9851A41395BD8AA5E356D3E7B174E /* FDFullscreenPopGesture-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E58163199E9297B711F1586C8445606 /* FDFullscreenPopGesture-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		798F88FF8235E307D79D15A0FA987F3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F71FC248875B67F53494C44B17B40EB;
+			remoteInfo = FDFullscreenPopGesture;
+		};
+		FD9BE89C602E59EC10533234EED39DDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B7D3C5ED52A1B62EC390283DF40A56B;
+			remoteInfo = SVProgressHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		003CD73C19AEF2AC8E221ACE92EEA2B7 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		0189A25E8A021D4F4D0005EDD99F9E79 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		04365E560FAE8A657B5C119ECD5615AE /* FDFullscreenPopGesture.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FDFullscreenPopGesture.modulemap; sourceTree = "<group>"; };
+		2737960C32AD44953DA2FB1E71E76196 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		3AA1CAE31D3081704CB7BA19BBB335FE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		408D15DD1FA0B7591C308818EF12920C /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		53F303B9A7A6D8375064FB3FF96BDBE5 /* FDFullscreenPopGesture-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FDFullscreenPopGesture-umbrella.h"; sourceTree = "<group>"; };
+		54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		555611EAAFB27639019E90279DBB715E /* Pods-Tang-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tang-umbrella.h"; sourceTree = "<group>"; };
+		5ADD5126C0A8B7B3F2797A5D254D4B66 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E06A4FB300E1F3510CCED6A0E141F15 /* Pods-Tang-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tang-resources.sh"; sourceTree = "<group>"; };
+		5F2BCFD8BA6C54F401DE04AD6617874E /* Pods-Tang-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tang-acknowledgements.markdown"; sourceTree = "<group>"; };
+		61C3CF7AE581D7D42E1AA8A1E684808E /* Pods-Tang-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tang-acknowledgements.plist"; sourceTree = "<group>"; };
+		68D4D27E3951D88702518CB356F3AE84 /* Pods-Tang.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Tang.modulemap"; sourceTree = "<group>"; };
+		6A4024BA66A411244682E984FB7FD441 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		742A830493F408921639995FC8DCC05E /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		744E9F8522CDCB261BD20199691BD96C /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D2A71C216C85D38F8B78B9F68F7322C /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		7D3A7D18B34D7BC98CC538914EB146E1 /* Pods-Tang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tang.debug.xcconfig"; sourceTree = "<group>"; };
+		80AC1E99453756F23DFC51AE12ACF1A8 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		931471A877D82042829F7E4168A028A9 /* FDFullscreenPopGesture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FDFullscreenPopGesture.framework; path = FDFullscreenPopGesture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E58163199E9297B711F1586C8445606 /* FDFullscreenPopGesture-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FDFullscreenPopGesture-dummy.m"; sourceTree = "<group>"; };
+		A203A1B8D991BE081B0A60F74136FE0A /* FDFullscreenPopGesture.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FDFullscreenPopGesture.xcconfig; sourceTree = "<group>"; };
+		A54B8F47CB0B34A889777B37F54C0C09 /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
+		A62627A6D90BAA8156086020CE91E765 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		A6B2AAF5C258FAE94996BD842523A9AE /* Pods-Tang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tang.release.xcconfig"; sourceTree = "<group>"; };
+		A86B0CCC4631ECECC78E18E0CF1443A7 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		B104BC1FE6D1A80468CBE30D61FDA258 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		B509C893AEB05E279960B97628368FB7 /* Pods-Tang-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tang-frameworks.sh"; sourceTree = "<group>"; };
+		C1376E5DE1F138BC1C75C7151A2A2FA9 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+FDFullscreenPopGesture.h"; path = "FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		C3D5DFD7F9CFEED96C581F533D83624A /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		D6EE4184CED74565AC54CDDA5185C08D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9F6FA5F9E57FAEFF3DCA34F75458313 /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		E9128A0704E10ACD279C6C83F234C3EA /* Pods-Tang-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tang-dummy.m"; sourceTree = "<group>"; };
+		F5A49D20843D6A82E12AA9AF86C67D5A /* Pods_Tang.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Tang.framework; path = "Pods-Tang.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F754AC5C97D3C3FE57B260851FE5ABB3 /* FDFullscreenPopGesture-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FDFullscreenPopGesture-prefix.pch"; sourceTree = "<group>"; };
+		F9FAC01D55B35F70FC7CC67268D4796E /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+FDFullscreenPopGesture.m"; path = "FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		FC2770B482BFE91273C8560623F1422C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EB59B940A80FF5DE0F02409B80A2A75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				714483E788CC6CFE4C0B230668AB703F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99AEC36CC543A36BBC3BB1BC12576E58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBE1BDBEAB4931DFED7587F134BB9080 /* Foundation.framework in Frameworks */,
+				9738673DF20E91A233DA221748A43D7D /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCDB90035DE40F4A4AF65DF3F2124DF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7128C7E8B721891E2EE28370AAB1BEEB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FE62407B093DD94E6447EC71C28A4BB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6617C5A40CC1E1EF358D526155DFE1F /* Pods-Tang */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		33B5EECD32632342912EE7E4CA02BD7B /* FDFullscreenPopGesture */ = {
+			isa = PBXGroup;
+			children = (
+				C1376E5DE1F138BC1C75C7151A2A2FA9 /* UINavigationController+FDFullscreenPopGesture.h */,
+				F9FAC01D55B35F70FC7CC67268D4796E /* UINavigationController+FDFullscreenPopGesture.m */,
+				4610308231B4461E4959108328396C43 /* Support Files */,
+			);
+			name = FDFullscreenPopGesture;
+			path = FDFullscreenPopGesture;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				978007DCB56F415BE390E0F949D4D4E5 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4610308231B4461E4959108328396C43 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				04365E560FAE8A657B5C119ECD5615AE /* FDFullscreenPopGesture.modulemap */,
+				A203A1B8D991BE081B0A60F74136FE0A /* FDFullscreenPopGesture.xcconfig */,
+				9E58163199E9297B711F1586C8445606 /* FDFullscreenPopGesture-dummy.m */,
+				F754AC5C97D3C3FE57B260851FE5ABB3 /* FDFullscreenPopGesture-prefix.pch */,
+				53F303B9A7A6D8375064FB3FF96BDBE5 /* FDFullscreenPopGesture-umbrella.h */,
+				3AA1CAE31D3081704CB7BA19BBB335FE /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FDFullscreenPopGesture";
+			sourceTree = "<group>";
+		};
+		6E434844D5BADBD56DE523ABD57F77DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33B5EECD32632342912EE7E4CA02BD7B /* FDFullscreenPopGesture */,
+				B4A367E6FA17324645B27F8E9C1D6175 /* SVProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				6E434844D5BADBD56DE523ABD57F77DF /* Pods */,
+				828751BB2DEB59ACF38075EAB13BDAC9 /* Products */,
+				0FE62407B093DD94E6447EC71C28A4BB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		828751BB2DEB59ACF38075EAB13BDAC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				931471A877D82042829F7E4168A028A9 /* FDFullscreenPopGesture.framework */,
+				F5A49D20843D6A82E12AA9AF86C67D5A /* Pods_Tang.framework */,
+				744E9F8522CDCB261BD20199691BD96C /* SVProgressHUD.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		886A21FD1732D978DE53056468D9288B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5ADD5126C0A8B7B3F2797A5D254D4B66 /* Info.plist */,
+				A54B8F47CB0B34A889777B37F54C0C09 /* SVProgressHUD.modulemap */,
+				D9F6FA5F9E57FAEFF3DCA34F75458313 /* SVProgressHUD.xcconfig */,
+				003CD73C19AEF2AC8E221ACE92EEA2B7 /* SVProgressHUD-dummy.m */,
+				2737960C32AD44953DA2FB1E71E76196 /* SVProgressHUD-prefix.pch */,
+				408D15DD1FA0B7591C308818EF12920C /* SVProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		978007DCB56F415BE390E0F949D4D4E5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */,
+				FC2770B482BFE91273C8560623F1422C /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B04BFE14BC93D35F2E34CFAB70A5873B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6A4024BA66A411244682E984FB7FD441 /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B4A367E6FA17324645B27F8E9C1D6175 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				B104BC1FE6D1A80468CBE30D61FDA258 /* SVIndefiniteAnimatedView.h */,
+				742A830493F408921639995FC8DCC05E /* SVIndefiniteAnimatedView.m */,
+				A86B0CCC4631ECECC78E18E0CF1443A7 /* SVProgressAnimatedView.h */,
+				A62627A6D90BAA8156086020CE91E765 /* SVProgressAnimatedView.m */,
+				80AC1E99453756F23DFC51AE12ACF1A8 /* SVProgressHUD.h */,
+				0189A25E8A021D4F4D0005EDD99F9E79 /* SVProgressHUD.m */,
+				7D2A71C216C85D38F8B78B9F68F7322C /* SVRadialGradientLayer.h */,
+				C3D5DFD7F9CFEED96C581F533D83624A /* SVRadialGradientLayer.m */,
+				B04BFE14BC93D35F2E34CFAB70A5873B /* Resources */,
+				886A21FD1732D978DE53056468D9288B /* Support Files */,
+			);
+			name = SVProgressHUD;
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		E6617C5A40CC1E1EF358D526155DFE1F /* Pods-Tang */ = {
+			isa = PBXGroup;
+			children = (
+				D6EE4184CED74565AC54CDDA5185C08D /* Info.plist */,
+				68D4D27E3951D88702518CB356F3AE84 /* Pods-Tang.modulemap */,
+				5F2BCFD8BA6C54F401DE04AD6617874E /* Pods-Tang-acknowledgements.markdown */,
+				61C3CF7AE581D7D42E1AA8A1E684808E /* Pods-Tang-acknowledgements.plist */,
+				E9128A0704E10ACD279C6C83F234C3EA /* Pods-Tang-dummy.m */,
+				B509C893AEB05E279960B97628368FB7 /* Pods-Tang-frameworks.sh */,
+				5E06A4FB300E1F3510CCED6A0E141F15 /* Pods-Tang-resources.sh */,
+				555611EAAFB27639019E90279DBB715E /* Pods-Tang-umbrella.h */,
+				7D3A7D18B34D7BC98CC538914EB146E1 /* Pods-Tang.debug.xcconfig */,
+				A6B2AAF5C258FAE94996BD842523A9AE /* Pods-Tang.release.xcconfig */,
+			);
+			name = "Pods-Tang";
+			path = "Target Support Files/Pods-Tang";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1AEDF980BC5399B33C9620D5078BA0D3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776702E8743007AC3AFC1E7F76299616 /* FDFullscreenPopGesture-umbrella.h in Headers */,
+				1C4F35092211F226DC56EFD272A292BC /* UINavigationController+FDFullscreenPopGesture.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32074B4485C5061F031DF1416CD53E51 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27AE049E579F992A2D4F11EBBCF31F9F /* SVIndefiniteAnimatedView.h in Headers */,
+				42B4B9BC6D7306E605CF953DE5CE34E4 /* SVProgressAnimatedView.h in Headers */,
+				4EEF2B07401AE60B32F79265EF79131E /* SVProgressHUD-umbrella.h in Headers */,
+				A402E4A234B9CE8C35B71BF90D2B35ED /* SVProgressHUD.h in Headers */,
+				332FB73228C4AECD0692166058BFD024 /* SVRadialGradientLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499D8F3B6BAEE74D5E9469FA2208AF71 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30297F1162F202035E327D49C1440C28 /* Pods-Tang-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0F71FC248875B67F53494C44B17B40EB /* FDFullscreenPopGesture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 404F7EB5C0136CDDE3194542723E2E7C /* Build configuration list for PBXNativeTarget "FDFullscreenPopGesture" */;
+			buildPhases = (
+				CDFEDD02529F13E67D2EDAED8E5DB4EB /* Sources */,
+				DCDB90035DE40F4A4AF65DF3F2124DF6 /* Frameworks */,
+				1AEDF980BC5399B33C9620D5078BA0D3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FDFullscreenPopGesture;
+			productName = FDFullscreenPopGesture;
+			productReference = 931471A877D82042829F7E4168A028A9 /* FDFullscreenPopGesture.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		42274CD2D0726D6B3686F92F46013008 /* Pods-Tang */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44D281CFAD7848D698A40DC8832845F1 /* Build configuration list for PBXNativeTarget "Pods-Tang" */;
+			buildPhases = (
+				534B44F3B0042C3BE23873DBB7B8C83E /* Sources */,
+				2EB59B940A80FF5DE0F02409B80A2A75 /* Frameworks */,
+				499D8F3B6BAEE74D5E9469FA2208AF71 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5292FB6CDFD04B48226D6F25E330CDC /* PBXTargetDependency */,
+				B3A7A6F23302BCB788E5756BF5A5EBD7 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tang";
+			productName = "Pods-Tang";
+			productReference = F5A49D20843D6A82E12AA9AF86C67D5A /* Pods_Tang.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7B7D3C5ED52A1B62EC390283DF40A56B /* SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EAA93491C39E32064E5FE0F0B222809 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildPhases = (
+				69A1596D9E80B64F56F35EC163E9CF88 /* Sources */,
+				99AEC36CC543A36BBC3BB1BC12576E58 /* Frameworks */,
+				32074B4485C5061F031DF1416CD53E51 /* Headers */,
+				F10C457867607DD020905FCEF882D3FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVProgressHUD;
+			productName = SVProgressHUD;
+			productReference = 744E9F8522CDCB261BD20199691BD96C /* SVProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 828751BB2DEB59ACF38075EAB13BDAC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F71FC248875B67F53494C44B17B40EB /* FDFullscreenPopGesture */,
+				42274CD2D0726D6B3686F92F46013008 /* Pods-Tang */,
+				7B7D3C5ED52A1B62EC390283DF40A56B /* SVProgressHUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F10C457867607DD020905FCEF882D3FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C183943192A3D267492E6A7CF25AB8D8 /* SVProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		534B44F3B0042C3BE23873DBB7B8C83E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D910D9C9061DFF37D3E2C65D4942B9BA /* Pods-Tang-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69A1596D9E80B64F56F35EC163E9CF88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3270E658B9ED3423F036CFFA6026DBAE /* SVIndefiniteAnimatedView.m in Sources */,
+				A24EF897F6B4FF11191A8010A8FA2439 /* SVProgressAnimatedView.m in Sources */,
+				5BEAAE786885EF46BD595A31B23ED5BC /* SVProgressHUD-dummy.m in Sources */,
+				0F17F28CEF4880567E7BAB800D463D9A /* SVProgressHUD.m in Sources */,
+				12E7B9107FE555B77CB35C729B56A325 /* SVRadialGradientLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDFEDD02529F13E67D2EDAED8E5DB4EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5D9851A41395BD8AA5E356D3E7B174E /* FDFullscreenPopGesture-dummy.m in Sources */,
+				B84F960E74AE7F8A67099072C643F17F /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3A7A6F23302BCB788E5756BF5A5EBD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = 7B7D3C5ED52A1B62EC390283DF40A56B /* SVProgressHUD */;
+			targetProxy = FD9BE89C602E59EC10533234EED39DDB /* PBXContainerItemProxy */;
+		};
+		C5292FB6CDFD04B48226D6F25E330CDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FDFullscreenPopGesture;
+			target = 0F71FC248875B67F53494C44B17B40EB /* FDFullscreenPopGesture */;
+			targetProxy = 798F88FF8235E307D79D15A0FA987F3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11434F988656A8287487A62061F12972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6B2AAF5C258FAE94996BD842523A9AE /* Pods-Tang.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Tang/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tang/Pods-Tang.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Tang;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2326624FB2A2372710CEC1DE2C344643 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9F6FA5F9E57FAEFF3DCA34F75458313 /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3038F70C68F5A3A7FD45FE257A8E484C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A203A1B8D991BE081B0A60F74136FE0A /* FDFullscreenPopGesture.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FDFullscreenPopGesture/FDFullscreenPopGesture-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FDFullscreenPopGesture/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FDFullscreenPopGesture/FDFullscreenPopGesture.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FDFullscreenPopGesture;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3537E48AE65D125849F23583925DF0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A203A1B8D991BE081B0A60F74136FE0A /* FDFullscreenPopGesture.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FDFullscreenPopGesture/FDFullscreenPopGesture-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FDFullscreenPopGesture/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FDFullscreenPopGesture/FDFullscreenPopGesture.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FDFullscreenPopGesture;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C09435608A7DB595AAA733A133876D6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D3A7D18B34D7BC98CC538914EB146E1 /* Pods-Tang.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Tang/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tang/Pods-Tang.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Tang;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C104F7F091290C3D1E248192F07FE689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D8B9CB7742789846E3C547E25F9471C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9F6FA5F9E57FAEFF3DCA34F75458313 /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C104F7F091290C3D1E248192F07FE689 /* Debug */,
+				34FE9531DA9AF2820790339988D5FF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		404F7EB5C0136CDDE3194542723E2E7C /* Build configuration list for PBXNativeTarget "FDFullscreenPopGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3038F70C68F5A3A7FD45FE257A8E484C /* Debug */,
+				A3537E48AE65D125849F23583925DF0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44D281CFAD7848D698A40DC8832845F1 /* Build configuration list for PBXNativeTarget "Pods-Tang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C09435608A7DB595AAA733A133876D6D /* Debug */,
+				11434F988656A8287487A62061F12972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EAA93491C39E32064E5FE0F0B222809 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8B9CB7742789846E3C547E25F9471C9 /* Debug */,
+				2326624FB2A2372710CEC1DE2C344643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

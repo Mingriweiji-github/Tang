@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B5DC45471F2D05D40BD3961 /* Pods_Tang.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DC3B51B90BB4CAC49FDF840 /* Pods_Tang.framework */; };
 		C74F7C481F42C4CA00DEABAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74F7C471F42C4CA00DEABAF /* AppDelegate.swift */; };
 		C74F7C4A1F42C4CA00DEABAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74F7C491F42C4CA00DEABAF /* ViewController.swift */; };
 		C74F7C4D1F42C4CA00DEABAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C74F7C4B1F42C4CA00DEABAF /* Main.storyboard */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		37E6AE31D15F782FB6108775 /* Pods-Tang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tang.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tang/Pods-Tang.debug.xcconfig"; sourceTree = "<group>"; };
+		6DC3B51B90BB4CAC49FDF840 /* Pods_Tang.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tang.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C74F7C441F42C4CA00DEABAF /* Tang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C74F7C471F42C4CA00DEABAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C74F7C491F42C4CA00DEABAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +54,7 @@
 		C74F7C691F42C4CA00DEABAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C74F7C801F42C78B00DEABAF /* KKBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKBaseViewController.swift; sourceTree = "<group>"; };
 		C74F7C851F42CAB900DEABAF /* KKConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKConst.swift; sourceTree = "<group>"; };
+		DAC1A6BDDF635B955F1FF470 /* Pods-Tang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tang.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tang/Pods-Tang.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B5DC45471F2D05D40BD3961 /* Pods_Tang.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00E41EAD560239171964A7AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37E6AE31D15F782FB6108775 /* Pods-Tang.debug.xcconfig */,
+				DAC1A6BDDF635B955F1FF470 /* Pods-Tang.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A98E9B089E51E2C4CD4E49B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DC3B51B90BB4CAC49FDF840 /* Pods_Tang.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C74F7C3B1F42C4CA00DEABAF = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +107,8 @@
 				C74F7C5B1F42C4CA00DEABAF /* TangTests */,
 				C74F7C661F42C4CA00DEABAF /* TangUITests */,
 				C74F7C451F42C4CA00DEABAF /* Products */,
+				00E41EAD560239171964A7AA /* Pods */,
+				A98E9B089E51E2C4CD4E49B5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -218,9 +242,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C74F7C6C1F42C4CA00DEABAF /* Build configuration list for PBXNativeTarget "Tang" */;
 			buildPhases = (
+				4F90B1182D0953A42E5FDBB2 /* [CP] Check Pods Manifest.lock */,
 				C74F7C401F42C4CA00DEABAF /* Sources */,
 				C74F7C411F42C4CA00DEABAF /* Frameworks */,
 				C74F7C421F42C4CA00DEABAF /* Resources */,
+				D74651964AC162A328F827EA /* [CP] Embed Pods Frameworks */,
+				8D2FDE0A9C71CE69DF5AE4BD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -341,6 +368,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F90B1182D0953A42E5FDBB2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8D2FDE0A9C71CE69DF5AE4BD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tang/Pods-Tang-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D74651964AC162A328F827EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tang/Pods-Tang-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C74F7C401F42C4CA00DEABAF /* Sources */ = {
@@ -500,6 +575,7 @@
 		};
 		C74F7C6D1F42C4CA00DEABAF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37E6AE31D15F782FB6108775 /* Pods-Tang.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
@@ -514,6 +590,7 @@
 		};
 		C74F7C6E1F42C4CA00DEABAF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAC1A6BDDF635B955F1FF470 /* Pods-Tang.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";

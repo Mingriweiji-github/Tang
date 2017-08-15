@@ -1,0 +1,6 @@
+framework module Pods_Tang {
+  umbrella header "Pods-Tang-umbrella.h"
+
+  export *
+  module * { export * }
+}
