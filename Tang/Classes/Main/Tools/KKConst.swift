@@ -17,7 +17,9 @@ let isPhone6 = KScreenH == 667 ? true : false
 let isPhone6P = KScreenH == 736 ? true : false
 
 
-
+//URL
+let BASE_URL = "http://api.dantangapp.com/"
+let ReturnCode200 = 200
 
 //RGB
 func KKColor(r:CGFloat,g:CGFloat,b:CGFloat,aplha:CGFloat)->UIColor{

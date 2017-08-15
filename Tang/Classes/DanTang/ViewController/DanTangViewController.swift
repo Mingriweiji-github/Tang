@@ -7,11 +7,10 @@
 //
 
 import UIKit
-import Alamofire
-import SwiftyJSON
 
 class DanTangViewController: KKBaseViewController {
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
