@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Alamofire.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>FDFullscreenPopGesture.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -19,6 +24,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SwiftyJSON.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -27,12 +37,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>42274CD2D0726D6B3686F92F46013008</key>
+		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7B7D3C5ED52A1B62EC390283DF40A56B</key>
+		<key>AF097E8CFFF9CF5F48FE94EC6AF659AE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B5B62050B05D2A7DC8C1B543C7F86A75</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F1241EEBB4A40D4FE2FBB917D882FFEB</key>
 		<dict>
 			<key>primary</key>
 			<true/>

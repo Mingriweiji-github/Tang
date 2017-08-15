@@ -1,15 +1,21 @@
 PODS:
+  - Alamofire (4.3.0)
   - FDFullscreenPopGesture (1.1)
   - SVProgressHUD (2.1.2)
+  - SwiftyJSON (3.1.4)
 
 DEPENDENCIES:
+  - Alamofire (~> 4.3.0)
   - FDFullscreenPopGesture (~> 1.1)
   - SVProgressHUD
+  - SwiftyJSON (~> 3.1.4)
 
 SPEC CHECKSUMS:
+  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
   FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
   SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: cc20cd52bae87e9ec82f3d14bb5a0baed6649400
+PODFILE CHECKSUM: 127745ab2729071e355d848b72b1b4cd2fb911db
 
 COCOAPODS: 1.2.1
