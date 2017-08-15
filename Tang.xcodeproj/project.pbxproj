@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C74F7C481F42C4CA00DEABAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74F7C471F42C4CA00DEABAF /* AppDelegate.swift */; };
+		C74F7C4A1F42C4CA00DEABAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74F7C491F42C4CA00DEABAF /* ViewController.swift */; };
+		C74F7C4D1F42C4CA00DEABAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C74F7C4B1F42C4CA00DEABAF /* Main.storyboard */; };
+		C74F7C4F1F42C4CA00DEABAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C74F7C4E1F42C4CA00DEABAF /* Assets.xcassets */; };
+		C74F7C521F42C4CA00DEABAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C74F7C501F42C4CA00DEABAF /* LaunchScreen.storyboard */; };
+		C74F7C5D1F42C4CA00DEABAF /* TangTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74F7C5C1F42C4CA00DEABAF /* TangTests.swift */; };
+		C74F7C681F42C4CA00DEABAF /* TangUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74F7C671F42C4CA00DEABAF /* TangUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C74F7C591F42C4CA00DEABAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C74F7C3C1F42C4CA00DEABAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C74F7C431F42C4CA00DEABAF;
+			remoteInfo = Tang;
+		};
+		C74F7C641F42C4CA00DEABAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C74F7C3C1F42C4CA00DEABAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C74F7C431F42C4CA00DEABAF;
+			remoteInfo = Tang;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C74F7C441F42C4CA00DEABAF /* Tang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tang.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C74F7C471F42C4CA00DEABAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C74F7C491F42C4CA00DEABAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C74F7C4C1F42C4CA00DEABAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C74F7C4E1F42C4CA00DEABAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C74F7C511F42C4CA00DEABAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C74F7C531F42C4CA00DEABAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C74F7C581F42C4CA00DEABAF /* TangTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TangTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C74F7C5C1F42C4CA00DEABAF /* TangTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TangTests.swift; sourceTree = "<group>"; };
+		C74F7C5E1F42C4CA00DEABAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C74F7C631F42C4CA00DEABAF /* TangUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TangUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C74F7C671F42C4CA00DEABAF /* TangUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TangUITests.swift; sourceTree = "<group>"; };
+		C74F7C691F42C4CA00DEABAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C74F7C411F42C4CA00DEABAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C74F7C551F42C4CA00DEABAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C74F7C601F42C4CA00DEABAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C74F7C3B1F42C4CA00DEABAF = {
+			isa = PBXGroup;
+			children = (
+				C74F7C461F42C4CA00DEABAF /* Tang */,
+				C74F7C5B1F42C4CA00DEABAF /* TangTests */,
+				C74F7C661F42C4CA00DEABAF /* TangUITests */,
+				C74F7C451F42C4CA00DEABAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C74F7C451F42C4CA00DEABAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C74F7C441F42C4CA00DEABAF /* Tang.app */,
+				C74F7C581F42C4CA00DEABAF /* TangTests.xctest */,
+				C74F7C631F42C4CA00DEABAF /* TangUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C74F7C461F42C4CA00DEABAF /* Tang */ = {
+			isa = PBXGroup;
+			children = (
+				C74F7C471F42C4CA00DEABAF /* AppDelegate.swift */,
+				C74F7C491F42C4CA00DEABAF /* ViewController.swift */,
+				C74F7C4B1F42C4CA00DEABAF /* Main.storyboard */,
+				C74F7C4E1F42C4CA00DEABAF /* Assets.xcassets */,
+				C74F7C501F42C4CA00DEABAF /* LaunchScreen.storyboard */,
+				C74F7C531F42C4CA00DEABAF /* Info.plist */,
+			);
+			path = Tang;
+			sourceTree = "<group>";
+		};
+		C74F7C5B1F42C4CA00DEABAF /* TangTests */ = {
+			isa = PBXGroup;
+			children = (
+				C74F7C5C1F42C4CA00DEABAF /* TangTests.swift */,
+				C74F7C5E1F42C4CA00DEABAF /* Info.plist */,
+			);
+			path = TangTests;
+			sourceTree = "<group>";
+		};
+		C74F7C661F42C4CA00DEABAF /* TangUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C74F7C671F42C4CA00DEABAF /* TangUITests.swift */,
+				C74F7C691F42C4CA00DEABAF /* Info.plist */,
+			);
+			path = TangUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C74F7C431F42C4CA00DEABAF /* Tang */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C74F7C6C1F42C4CA00DEABAF /* Build configuration list for PBXNativeTarget "Tang" */;
+			buildPhases = (
+				C74F7C401F42C4CA00DEABAF /* Sources */,
+				C74F7C411F42C4CA00DEABAF /* Frameworks */,
+				C74F7C421F42C4CA00DEABAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tang;
+			productName = Tang;
+			productReference = C74F7C441F42C4CA00DEABAF /* Tang.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C74F7C571F42C4CA00DEABAF /* TangTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C74F7C6F1F42C4CA00DEABAF /* Build configuration list for PBXNativeTarget "TangTests" */;
+			buildPhases = (
+				C74F7C541F42C4CA00DEABAF /* Sources */,
+				C74F7C551F42C4CA00DEABAF /* Frameworks */,
+				C74F7C561F42C4CA00DEABAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C74F7C5A1F42C4CA00DEABAF /* PBXTargetDependency */,
+			);
+			name = TangTests;
+			productName = TangTests;
+			productReference = C74F7C581F42C4CA00DEABAF /* TangTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C74F7C621F42C4CA00DEABAF /* TangUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C74F7C721F42C4CA00DEABAF /* Build configuration list for PBXNativeTarget "TangUITests" */;
+			buildPhases = (
+				C74F7C5F1F42C4CA00DEABAF /* Sources */,
+				C74F7C601F42C4CA00DEABAF /* Frameworks */,
+				C74F7C611F42C4CA00DEABAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C74F7C651F42C4CA00DEABAF /* PBXTargetDependency */,
+			);
+			name = TangUITests;
+			productName = TangUITests;
+			productReference = C74F7C631F42C4CA00DEABAF /* TangUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C74F7C3C1F42C4CA00DEABAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = M_Li;
+				TargetAttributes = {
+					C74F7C431F42C4CA00DEABAF = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = YEFYT2Y9CS;
+						ProvisioningStyle = Automatic;
+					};
+					C74F7C571F42C4CA00DEABAF = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = YEFYT2Y9CS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C74F7C431F42C4CA00DEABAF;
+					};
+					C74F7C621F42C4CA00DEABAF = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = YEFYT2Y9CS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C74F7C431F42C4CA00DEABAF;
+					};
+				};
+			};
+			buildConfigurationList = C74F7C3F1F42C4CA00DEABAF /* Build configuration list for PBXProject "Tang" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C74F7C3B1F42C4CA00DEABAF;
+			productRefGroup = C74F7C451F42C4CA00DEABAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C74F7C431F42C4CA00DEABAF /* Tang */,
+				C74F7C571F42C4CA00DEABAF /* TangTests */,
+				C74F7C621F42C4CA00DEABAF /* TangUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C74F7C421F42C4CA00DEABAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C74F7C521F42C4CA00DEABAF /* LaunchScreen.storyboard in Resources */,
+				C74F7C4F1F42C4CA00DEABAF /* Assets.xcassets in Resources */,
+				C74F7C4D1F42C4CA00DEABAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C74F7C561F42C4CA00DEABAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C74F7C611F42C4CA00DEABAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C74F7C401F42C4CA00DEABAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C74F7C4A1F42C4CA00DEABAF /* ViewController.swift in Sources */,
+				C74F7C481F42C4CA00DEABAF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C74F7C541F42C4CA00DEABAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C74F7C5D1F42C4CA00DEABAF /* TangTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C74F7C5F1F42C4CA00DEABAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C74F7C681F42C4CA00DEABAF /* TangUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C74F7C5A1F42C4CA00DEABAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C74F7C431F42C4CA00DEABAF /* Tang */;
+			targetProxy = C74F7C591F42C4CA00DEABAF /* PBXContainerItemProxy */;
+		};
+		C74F7C651F42C4CA00DEABAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C74F7C431F42C4CA00DEABAF /* Tang */;
+			targetProxy = C74F7C641F42C4CA00DEABAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C74F7C4B1F42C4CA00DEABAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C74F7C4C1F42C4CA00DEABAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C74F7C501F42C4CA00DEABAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C74F7C511F42C4CA00DEABAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C74F7C6A1F42C4CA00DEABAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C74F7C6B1F42C4CA00DEABAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C74F7C6D1F42C4CA00DEABAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YEFYT2Y9CS;
+				INFOPLIST_FILE = Tang/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KK.Tang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C74F7C6E1F42C4CA00DEABAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YEFYT2Y9CS;
+				INFOPLIST_FILE = Tang/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KK.Tang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C74F7C701F42C4CA00DEABAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YEFYT2Y9CS;
+				INFOPLIST_FILE = TangTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KK.TangTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tang.app/Tang";
+			};
+			name = Debug;
+		};
+		C74F7C711F42C4CA00DEABAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YEFYT2Y9CS;
+				INFOPLIST_FILE = TangTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KK.TangTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tang.app/Tang";
+			};
+			name = Release;
+		};
+		C74F7C731F42C4CA00DEABAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = YEFYT2Y9CS;
+				INFOPLIST_FILE = TangUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KK.TangUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Tang;
+			};
+			name = Debug;
+		};
+		C74F7C741F42C4CA00DEABAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = YEFYT2Y9CS;
+				INFOPLIST_FILE = TangUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KK.TangUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Tang;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C74F7C3F1F42C4CA00DEABAF /* Build configuration list for PBXProject "Tang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C74F7C6A1F42C4CA00DEABAF /* Debug */,
+				C74F7C6B1F42C4CA00DEABAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C74F7C6C1F42C4CA00DEABAF /* Build configuration list for PBXNativeTarget "Tang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C74F7C6D1F42C4CA00DEABAF /* Debug */,
+				C74F7C6E1F42C4CA00DEABAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C74F7C6F1F42C4CA00DEABAF /* Build configuration list for PBXNativeTarget "TangTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C74F7C701F42C4CA00DEABAF /* Debug */,
+				C74F7C711F42C4CA00DEABAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C74F7C721F42C4CA00DEABAF /* Build configuration list for PBXNativeTarget "TangUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C74F7C731F42C4CA00DEABAF /* Debug */,
+				C74F7C741F42C4CA00DEABAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C74F7C3C1F42C4CA00DEABAF /* Project object */;
+}
