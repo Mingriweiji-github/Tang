@@ -14,6 +14,7 @@
 		C74F7C521F42C4CA00DEABAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C74F7C501F42C4CA00DEABAF /* LaunchScreen.storyboard */; };
 		C74F7C5D1F42C4CA00DEABAF /* TangTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74F7C5C1F42C4CA00DEABAF /* TangTests.swift */; };
 		C74F7C681F42C4CA00DEABAF /* TangUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74F7C671F42C4CA00DEABAF /* TangUITests.swift */; };
+		C74F7C821F42C78B00DEABAF /* KKBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74F7C801F42C78B00DEABAF /* KKBaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C74F7C631F42C4CA00DEABAF /* TangUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TangUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C74F7C671F42C4CA00DEABAF /* TangUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TangUITests.swift; sourceTree = "<group>"; };
 		C74F7C691F42C4CA00DEABAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C74F7C801F42C78B00DEABAF /* KKBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKBaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				C74F7C471F42C4CA00DEABAF /* AppDelegate.swift */,
 				C74F7C491F42C4CA00DEABAF /* ViewController.swift */,
+				C74F7C751F42C56200DEABAF /* Classes */,
 				C74F7C4B1F42C4CA00DEABAF /* Main.storyboard */,
 				C74F7C4E1F42C4CA00DEABAF /* Assets.xcassets */,
 				C74F7C501F42C4CA00DEABAF /* LaunchScreen.storyboard */,
@@ -123,6 +126,86 @@
 				C74F7C691F42C4CA00DEABAF /* Info.plist */,
 			);
 			path = TangUITests;
+			sourceTree = "<group>";
+		};
+		C74F7C751F42C56200DEABAF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C74F7C7B1F42C67400DEABAF /* Classify */,
+				C74F7C7C1F42C67400DEABAF /* Product */,
+				C74F7C761F42C56200DEABAF /* DanTang */,
+				C74F7C771F42C56200DEABAF /* Login */,
+				C74F7C781F42C56200DEABAF /* Main */,
+				C74F7C791F42C56200DEABAF /* Me */,
+				C74F7C7A1F42C56200DEABAF /* Others */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C74F7C761F42C56200DEABAF /* DanTang */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DanTang;
+			sourceTree = "<group>";
+		};
+		C74F7C771F42C56200DEABAF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		C74F7C781F42C56200DEABAF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C74F7C7F1F42C78B00DEABAF /* Controller */,
+				C74F7C811F42C78B00DEABAF /* Tools */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C74F7C791F42C56200DEABAF /* Me */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		C74F7C7A1F42C56200DEABAF /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		C74F7C7B1F42C67400DEABAF /* Classify */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classify;
+			sourceTree = "<group>";
+		};
+		C74F7C7C1F42C67400DEABAF /* Product */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		C74F7C7F1F42C78B00DEABAF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C74F7C801F42C78B00DEABAF /* KKBaseViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C74F7C811F42C78B00DEABAF /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,8 +276,7 @@
 				TargetAttributes = {
 					C74F7C431F42C4CA00DEABAF = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = YEFYT2Y9CS;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					C74F7C571F42C4CA00DEABAF = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -264,6 +346,7 @@
 			files = (
 				C74F7C4A1F42C4CA00DEABAF /* ViewController.swift in Sources */,
 				C74F7C481F42C4CA00DEABAF /* AppDelegate.swift in Sources */,
+				C74F7C821F42C78B00DEABAF /* KKBaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,11 +498,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = YEFYT2Y9CS;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Tang/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.KK.Tang;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -428,11 +512,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = YEFYT2Y9CS;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Tang/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.KK.Tang;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
