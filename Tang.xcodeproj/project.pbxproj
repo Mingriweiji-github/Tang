@@ -29,6 +29,7 @@
 		C74F7CA11F44336E00DEABAF /* KKTopicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74F7CA01F44336E00DEABAF /* KKTopicViewController.swift */; };
 		C74F7CA41F44345B00DEABAF /* KKHomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74F7CA21F44345B00DEABAF /* KKHomeCell.swift */; };
 		C74F7CA51F44345B00DEABAF /* KKHomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C74F7CA31F44345B00DEABAF /* KKHomeCell.xib */; };
+		C74F7CA81F4441ED00DEABAF /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74F7CA71F4441ED00DEABAF /* UIView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,7 @@
 		C74F7CA01F44336E00DEABAF /* KKTopicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKTopicViewController.swift; sourceTree = "<group>"; };
 		C74F7CA21F44345B00DEABAF /* KKHomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKHomeCell.swift; sourceTree = "<group>"; };
 		C74F7CA31F44345B00DEABAF /* KKHomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KKHomeCell.xib; sourceTree = "<group>"; };
+		C74F7CA71F4441ED00DEABAF /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		DAC1A6BDDF635B955F1FF470 /* Pods-Tang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tang.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tang/Pods-Tang.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -211,6 +213,7 @@
 		C74F7C781F42C56200DEABAF /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				C74F7CA61F4441C800DEABAF /* Category */,
 				C74F7C7F1F42C78B00DEABAF /* Controller */,
 				C74F7C811F42C78B00DEABAF /* Tools */,
 			);
@@ -293,6 +296,14 @@
 				C74F7CA01F44336E00DEABAF /* KKTopicViewController.swift */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C74F7CA61F4441C800DEABAF /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				C74F7CA71F4441ED00DEABAF /* UIView+Extension.swift */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -486,6 +497,7 @@
 			files = (
 				C74F7C9F1F442EFC00DEABAF /* KKChannel.swift in Sources */,
 				C74F7C9B1F42F9CA00DEABAF /* KKHomeItem.swift in Sources */,
+				C74F7CA81F4441ED00DEABAF /* UIView+Extension.swift in Sources */,
 				C74F7C9D1F44281100DEABAF /* YMTabBarController.swift in Sources */,
 				C74F7C8A1F42E66F00DEABAF /* KKNavigationController.swift in Sources */,
 				C74F7C861F42CAB900DEABAF /* KKConst.swift in Sources */,

@@ -37,6 +37,17 @@
                             <constraint firstAttribute="height" constant="30" id="blV-p3-7Sz"/>
                         </constraints>
                         <state key="normal" title="1000" image="Feed_FavoriteIcon_17x17_"/>
+                        <connections>
+                            <action selector="favouriteClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="EnQ-4h-sXw"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TYw-Lc-oCx">
+                        <rect key="frame" x="146.5" y="80" width="31" height="26"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="31" id="RxJ-0B-md1"/>
+                            <constraint firstAttribute="height" constant="26" id="e60-Ae-NRU"/>
+                        </constraints>
+                        <state key="normal" image="PlaceHolderImage_small_31x26_"/>
                     </button>
                 </subviews>
                 <constraints>
@@ -45,7 +56,9 @@
                     <constraint firstAttribute="bottom" secondItem="aeP-z6-yeV" secondAttribute="bottom" constant="5" id="GGr-er-3vV"/>
                     <constraint firstItem="2ZW-Nk-hS4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="HWe-zP-V9E"/>
                     <constraint firstItem="aeP-z6-yeV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="Iq5-8d-0Ct"/>
+                    <constraint firstItem="TYw-Lc-oCx" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="K9g-Ln-ZnL"/>
                     <constraint firstAttribute="trailing" secondItem="Jao-5v-eBF" secondAttribute="trailing" constant="10" id="Pos-Vt-LD8"/>
+                    <constraint firstItem="TYw-Lc-oCx" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="WBc-xY-mF7"/>
                     <constraint firstAttribute="bottom" secondItem="2ZW-Nk-hS4" secondAttribute="bottom" id="qyy-4S-wpk"/>
                     <constraint firstAttribute="trailing" secondItem="2ZW-Nk-hS4" secondAttribute="trailing" id="uDY-gc-kKd"/>
                 </constraints>
@@ -53,6 +66,7 @@
             <connections>
                 <outlet property="favouriteBtn" destination="Jao-5v-eBF" id="YrW-ch-Rex"/>
                 <outlet property="imgView" destination="2ZW-Nk-hS4" id="fXk-ck-Q5x"/>
+                <outlet property="placeHolderButton" destination="TYw-Lc-oCx" id="RrI-UV-rpw"/>
                 <outlet property="titleLabel" destination="aeP-z6-yeV" id="XV3-i3-37B"/>
             </connections>
             <point key="canvasLocation" x="32" y="38"/>
@@ -60,5 +74,6 @@
     </objects>
     <resources>
         <image name="Feed_FavoriteIcon_17x17_" width="17" height="17"/>
+        <image name="PlaceHolderImage_small_31x26_" width="31" height="26"/>
     </resources>
 </document>

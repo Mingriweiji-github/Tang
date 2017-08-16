@@ -11,10 +11,13 @@ import UIKit
 class KKTopicViewController: UITableViewController {
     var type = Int()
     var itmes = [KKHomeItem]()
+    let homeCellIdentifier = "homeCellIdentifier"
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        setupTableView()
+        
         weak var weakSelf = self
         KKNetworkTool.sharedInstance.requestHomeData(id: type) { (homeItmes) in
             weakSelf!.itmes = homeItmes
@@ -25,20 +28,21 @@ class KKTopicViewController: UITableViewController {
 
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func setupTableView(){
+    
+        tableView.rowHeight = 140
+        tableView.separatorStyle = .none
+        
+        tableView.register(UINib(nibName:String(describing: KKHomeCell.self), bundle: nil), forCellReuseIdentifier: "KKHomeCell")
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 10
     }
-    */
-
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let homeCell = tableView.dequeueReusableCell(withIdentifier: homeCellIdentifier, for: indexPath) as! KKHomeCell
+        
+        return homeCell
+    }
+    
 }

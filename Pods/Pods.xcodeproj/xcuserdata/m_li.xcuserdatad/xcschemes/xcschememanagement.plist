@@ -14,6 +14,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Kingfisher.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Tang.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -37,22 +42,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>1B2D0770D28E40A94BAD95371650EDD8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AF097E8CFFF9CF5F48FE94EC6AF659AE</key>
+		<key>B4FF890E6C47C17DFB9704AF75F6B331</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B5B62050B05D2A7DC8C1B543C7F86A75</key>
+		<key>C4944FEC314D1A66588651D006273ADE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F1241EEBB4A40D4FE2FBB917D882FFEB</key>
+		<key>E8692FAF0C59A4884B83F41D802FD864</key>
 		<dict>
 			<key>primary</key>
 			<true/>
