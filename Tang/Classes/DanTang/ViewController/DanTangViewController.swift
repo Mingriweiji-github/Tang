@@ -10,12 +10,28 @@ import UIKit
 
 class DanTangViewController: KKBaseViewController {
 
+    var channels = [KKChannel]()
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         
+        print("进来了")
+        //首页顶部
+        KKNetworkTool.sharedInstance.requestHomeTopData { (kk_channels) in
+            
+            print(kk_channels)
+            
+            for channels in kk_channels{
+            
+                
+            }
+            
+            
+        }
         
     }
 

@@ -19,12 +19,14 @@ let isPhone6P = KScreenH == 736 ? true : false
 
 //URL
 let BASE_URL = "http://api.dantangapp.com/"
+let KKTopData = "v2/channels/preset"
+
 let ReturnCode200 = 200
 
 //RGB
 func KKColor(r:CGFloat,g:CGFloat,b:CGFloat,aplha:CGFloat)->UIColor{
 
-    return UIColor(red: r, green: g, blue: b, alpha: aplha)
+    return UIColor(red: r / 255.0, green: g / 255.0, blue: b / 255.0, alpha: aplha)
 }
 
 func KKGlobeColor() -> UIColor{

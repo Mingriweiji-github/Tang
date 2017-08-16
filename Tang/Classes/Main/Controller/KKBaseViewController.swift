@@ -30,7 +30,6 @@ class KKBaseViewController: UIViewController {
 
     
     override var preferredStatusBarStyle: UIStatusBarStyle{
-    
         return .lightContent
     }
 

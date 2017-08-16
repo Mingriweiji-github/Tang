@@ -11,12 +11,6 @@ import SVProgressHUD
 
 class KKNavigationController: UINavigationController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
     internal override class func initialize(){
     
         super.initialize()

@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		7B5DC45471F2D05D40BD3961 /* Pods_Tang.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DC3B51B90BB4CAC49FDF840 /* Pods_Tang.framework */; };
 		C74F7C481F42C4CA00DEABAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74F7C471F42C4CA00DEABAF /* AppDelegate.swift */; };
-		C74F7C4A1F42C4CA00DEABAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74F7C491F42C4CA00DEABAF /* ViewController.swift */; };
 		C74F7C4D1F42C4CA00DEABAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C74F7C4B1F42C4CA00DEABAF /* Main.storyboard */; };
 		C74F7C4F1F42C4CA00DEABAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C74F7C4E1F42C4CA00DEABAF /* Assets.xcassets */; };
 		C74F7C521F42C4CA00DEABAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C74F7C501F42C4CA00DEABAF /* LaunchScreen.storyboard */; };
@@ -25,6 +24,11 @@
 		C74F7C941F42F8C600DEABAF /* KKNetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74F7C931F42F8C600DEABAF /* KKNetworkTool.swift */; };
 		C74F7C991F42F9B200DEABAF /* DanTangViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74F7C981F42F9B200DEABAF /* DanTangViewController.swift */; };
 		C74F7C9B1F42F9CA00DEABAF /* KKHomeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74F7C9A1F42F9CA00DEABAF /* KKHomeItem.swift */; };
+		C74F7C9D1F44281100DEABAF /* YMTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74F7C9C1F44281100DEABAF /* YMTabBarController.swift */; };
+		C74F7C9F1F442EFC00DEABAF /* KKChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74F7C9E1F442EFC00DEABAF /* KKChannel.swift */; };
+		C74F7CA11F44336E00DEABAF /* KKTopicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74F7CA01F44336E00DEABAF /* KKTopicViewController.swift */; };
+		C74F7CA41F44345B00DEABAF /* KKHomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74F7CA21F44345B00DEABAF /* KKHomeCell.swift */; };
+		C74F7CA51F44345B00DEABAF /* KKHomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C74F7CA31F44345B00DEABAF /* KKHomeCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +53,6 @@
 		6DC3B51B90BB4CAC49FDF840 /* Pods_Tang.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tang.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C74F7C441F42C4CA00DEABAF /* Tang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C74F7C471F42C4CA00DEABAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C74F7C491F42C4CA00DEABAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C74F7C4C1F42C4CA00DEABAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C74F7C4E1F42C4CA00DEABAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C74F7C511F42C4CA00DEABAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -70,6 +73,11 @@
 		C74F7C931F42F8C600DEABAF /* KKNetworkTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKNetworkTool.swift; sourceTree = "<group>"; };
 		C74F7C981F42F9B200DEABAF /* DanTangViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DanTangViewController.swift; sourceTree = "<group>"; };
 		C74F7C9A1F42F9CA00DEABAF /* KKHomeItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKHomeItem.swift; sourceTree = "<group>"; };
+		C74F7C9C1F44281100DEABAF /* YMTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMTabBarController.swift; sourceTree = "<group>"; };
+		C74F7C9E1F442EFC00DEABAF /* KKChannel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKChannel.swift; sourceTree = "<group>"; };
+		C74F7CA01F44336E00DEABAF /* KKTopicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKTopicViewController.swift; sourceTree = "<group>"; };
+		C74F7CA21F44345B00DEABAF /* KKHomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKHomeCell.swift; sourceTree = "<group>"; };
+		C74F7CA31F44345B00DEABAF /* KKHomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KKHomeCell.xib; sourceTree = "<group>"; };
 		DAC1A6BDDF635B955F1FF470 /* Pods-Tang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tang.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tang/Pods-Tang.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -142,7 +150,6 @@
 			isa = PBXGroup;
 			children = (
 				C74F7C471F42C4CA00DEABAF /* AppDelegate.swift */,
-				C74F7C491F42C4CA00DEABAF /* ViewController.swift */,
 				C74F7C751F42C56200DEABAF /* Classes */,
 				C74F7C4B1F42C4CA00DEABAF /* Main.storyboard */,
 				C74F7C4E1F42C4CA00DEABAF /* Assets.xcassets */,
@@ -244,6 +251,7 @@
 		C74F7C7F1F42C78B00DEABAF /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C74F7C9C1F44281100DEABAF /* YMTabBarController.swift */,
 				C74F7C801F42C78B00DEABAF /* KKBaseViewController.swift */,
 				C74F7C871F42E4FE00DEABAF /* KKTabBarController.swift */,
 				C74F7C891F42E66F00DEABAF /* KKNavigationController.swift */,
@@ -264,6 +272,7 @@
 			isa = PBXGroup;
 			children = (
 				C74F7C9A1F42F9CA00DEABAF /* KKHomeItem.swift */,
+				C74F7C9E1F442EFC00DEABAF /* KKChannel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -271,6 +280,8 @@
 		C74F7C961F42F9B200DEABAF /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C74F7CA21F44345B00DEABAF /* KKHomeCell.swift */,
+				C74F7CA31F44345B00DEABAF /* KKHomeCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -279,6 +290,7 @@
 			isa = PBXGroup;
 			children = (
 				C74F7C981F42F9B200DEABAF /* DanTangViewController.swift */,
+				C74F7CA01F44336E00DEABAF /* KKTopicViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -398,6 +410,7 @@
 			files = (
 				C74F7C521F42C4CA00DEABAF /* LaunchScreen.storyboard in Resources */,
 				C74F7C4F1F42C4CA00DEABAF /* Assets.xcassets in Resources */,
+				C74F7CA51F44345B00DEABAF /* KKHomeCell.xib in Resources */,
 				C74F7C4D1F42C4CA00DEABAF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -471,10 +484,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C74F7C4A1F42C4CA00DEABAF /* ViewController.swift in Sources */,
+				C74F7C9F1F442EFC00DEABAF /* KKChannel.swift in Sources */,
 				C74F7C9B1F42F9CA00DEABAF /* KKHomeItem.swift in Sources */,
+				C74F7C9D1F44281100DEABAF /* YMTabBarController.swift in Sources */,
 				C74F7C8A1F42E66F00DEABAF /* KKNavigationController.swift in Sources */,
 				C74F7C861F42CAB900DEABAF /* KKConst.swift in Sources */,
+				C74F7CA41F44345B00DEABAF /* KKHomeCell.swift in Sources */,
 				C74F7C481F42C4CA00DEABAF /* AppDelegate.swift in Sources */,
 				C74F7C901F42EDE700DEABAF /* KKCategoryViewController.swift in Sources */,
 				C74F7C821F42C78B00DEABAF /* KKBaseViewController.swift in Sources */,
@@ -482,6 +497,7 @@
 				C74F7C991F42F9B200DEABAF /* DanTangViewController.swift in Sources */,
 				C74F7C941F42F8C600DEABAF /* KKNetworkTool.swift in Sources */,
 				C74F7C921F42EE0900DEABAF /* KKMeViewController.swift in Sources */,
+				C74F7CA11F44336E00DEABAF /* KKTopicViewController.swift in Sources */,
 				C74F7C881F42E4FE00DEABAF /* KKTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -638,6 +654,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = YEFYT2Y9CS;
 				INFOPLIST_FILE = Tang/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.KK.simpleTableview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -654,6 +671,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = YEFYT2Y9CS;
 				INFOPLIST_FILE = Tang/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.KK.simpleTableview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
