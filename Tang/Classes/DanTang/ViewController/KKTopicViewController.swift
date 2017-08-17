@@ -64,6 +64,11 @@ class KKTopicViewController: UITableViewController,KKHomeCellDelegate{
     //tableDelegate
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
+        let detail = KKDetailViewController()
+        detail.homeItem = itmes[indexPath.row]
+        detail.title = "详情"
+        navigationController?.pushViewController(detail, animated: true)
+        
     }
     
     //homeCell Delegate

@@ -139,16 +139,16 @@ class DanTangViewController: KKBaseViewController ,UIScrollViewDelegate{
         selectedBtn = button
         //标签动画
         UIView.animate(withDuration: kAnimationDuration) { 
-            self.indicatorView?.width = (self.selectedBtn?.titleLabel?.width)!
-            self.indicatorView?.centerX = (self.selectedBtn?.centerX)!
+//            self.indicatorView?.width = (self.selectedBtn?.titleLabel?.width)!
+//            self.indicatorView?.centerX = (self.selectedBtn?.centerX)!
+            self.indicatorView!.width = self.selectedBtn!.titleLabel!.width
+            self.indicatorView!.centerX = self.selectedBtn!.centerX
         }
         
         //滚动 切换自控制器
-        var offset = contentView?.contentOffset
-        offset?.x = (contentView?.width)! * CGFloat(button.tag)
-    
-        contentView?.setContentOffset(offset!, animated: true)
-        
+        var offset = contentView!.contentOffset
+        offset.x = (contentView!.width) * CGFloat(button.tag)
+        contentView!.setContentOffset(offset, animated: true)
     }
     func rightBtnClicked(){        
         
@@ -165,10 +165,12 @@ class DanTangViewController: KKBaseViewController ,UIScrollViewDelegate{
     //MARK:scrollview Delegate
     func scrollViewDidEndScrollingAnimation(_ scrollView: UIScrollView) {
         
-        let index = Int((contentView?.contentOffset.x)! / scrollView.width)
+        
+//        let index = Int((contentView?.contentOffset.x)! / scrollView.width)
+        
+        let index = Int(scrollView.contentOffset.x / scrollView.width)
         
         let vc = childViewControllers[index]
-        
         vc.view.x = scrollView.contentOffset.x
         vc.view.y = 0
         vc.view.height = scrollView.height
