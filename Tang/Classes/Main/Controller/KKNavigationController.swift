@@ -33,6 +33,9 @@ class KKNavigationController: UINavigationController {
             
             viewController.navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(named: "checkUserType_backward_9x15_"), style: .plain, target: self, action: #selector(navigationBackAction))
         }
+        //warning
+        //少了这句话，tabbar就出不来了
+        super.pushViewController(viewController, animated: true)
     }
     
     func navigationBackAction(){
