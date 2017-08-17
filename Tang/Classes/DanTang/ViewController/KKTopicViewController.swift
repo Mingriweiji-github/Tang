@@ -47,14 +47,22 @@ class KKTopicViewController: UITableViewController,KKHomeCellDelegate{
         tableView.delegate = self
         tableView.dataSource = self
     }
+    func reloadHomeData() {
     
+       weak var weakSelf = self
+        KKNetworkTool.sharedInstance.requestHomeData(id: type) { (homeItems) in
+            weakSelf?.itmes = homeItems
+            weakSelf?.tableView.reloadData()
+            weakSelf?.refreshControl?.endRefreshing()
+        }
+    }
+    //MARK: UITableViewDataSource
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return itmes.count
     }
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let homeCell = tableView.dequeueReusableCell(withIdentifier: homeCellIdentifier, for: indexPath) as! KKHomeCell
-        
         homeCell.selectionStyle = .none
         homeCell.homeItem = itmes[indexPath.row]
         homeCell.delegate = self
@@ -70,7 +78,6 @@ class KKTopicViewController: UITableViewController,KKHomeCellDelegate{
         navigationController?.pushViewController(detail, animated: true)
         
     }
-    
     //homeCell Delegate
     func homeCellDidClickedFavouriteButton(button:UIButton){
     
