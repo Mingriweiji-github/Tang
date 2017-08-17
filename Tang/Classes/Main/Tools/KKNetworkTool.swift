@@ -82,9 +82,30 @@ class KKNetworkTool: NSObject {
                 
             }
         }
+    }
+
+    //单品
+    func requestProductData(finished:@escaping(_ products:[KKProductModel]) -> ()){
+        
+        SVProgressHUD.show(withStatus: "加载中...")
+        let url = BASE_URL + KKProductData
+        let params = ["gender": 1,
+                      "generation": 1,
+                      "limit": 20,
+                      "offset": 0]
+        
+        Alamofire
+        .request(url, parameters: params)
+        .responseJSON { (response) in
+            
+            guard response.result.isSuccess else{
+            SVProgressHUD.showError(withStatus: "加载失败...")
+                return
+            }
+                        
+        }
         
     }
-    
     
     
     

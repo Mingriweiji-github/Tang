@@ -20,6 +20,7 @@ let isPhone6P = KScreenH == 736 ? true : false
 //URL
 let BASE_URL = "http://api.dantangapp.com/"
 let KKTopData = "v2/channels/preset"
+let KKProductData = "v2/items"
 
 let ReturnCode200 = 200
 let kAnimationDuration = 0.25

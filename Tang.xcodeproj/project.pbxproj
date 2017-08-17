@@ -33,6 +33,7 @@
 		C7560C081F4598D700F31DDB /* KKProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7560C071F4598D700F31DDB /* KKProductViewController.swift */; };
 		C7560C0B1F459BED00F31DDB /* KKProductCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7560C091F459BED00F31DDB /* KKProductCollectionCell.swift */; };
 		C7560C0C1F459BED00F31DDB /* KKProductCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7560C0A1F459BED00F31DDB /* KKProductCollectionCell.xib */; };
+		C7560C0E1F45A17900F31DDB /* KKProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7560C0D1F45A17900F31DDB /* KKProductModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +87,7 @@
 		C7560C071F4598D700F31DDB /* KKProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKProductViewController.swift; sourceTree = "<group>"; };
 		C7560C091F459BED00F31DDB /* KKProductCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKProductCollectionCell.swift; sourceTree = "<group>"; };
 		C7560C0A1F459BED00F31DDB /* KKProductCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KKProductCollectionCell.xib; sourceTree = "<group>"; };
+		C7560C0D1F45A17900F31DDB /* KKProductModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKProductModel.swift; sourceTree = "<group>"; };
 		DAC1A6BDDF635B955F1FF470 /* Pods-Tang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tang.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tang/Pods-Tang.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -318,6 +320,7 @@
 		C7560C041F4598B200F31DDB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C7560C0D1F45A17900F31DDB /* KKProductModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -537,6 +540,7 @@
 				C74F7C8A1F42E66F00DEABAF /* KKNavigationController.swift in Sources */,
 				C74F7C861F42CAB900DEABAF /* KKConst.swift in Sources */,
 				C74F7CA41F44345B00DEABAF /* KKHomeCell.swift in Sources */,
+				C7560C0E1F45A17900F31DDB /* KKProductModel.swift in Sources */,
 				C74F7C481F42C4CA00DEABAF /* AppDelegate.swift in Sources */,
 				C7560C081F4598D700F31DDB /* KKProductViewController.swift in Sources */,
 				C74F7C901F42EDE700DEABAF /* KKCategoryViewController.swift in Sources */,
