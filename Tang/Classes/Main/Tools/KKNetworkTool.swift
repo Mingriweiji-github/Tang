@@ -15,6 +15,7 @@ class KKNetworkTool: NSObject {
     
     static let sharedInstance = KKNetworkTool()
 
+    /// Home data
     func requestHomeData(id:Int,finished:@escaping(_ homeItems:[KKHomeItem])->()){
         
         let url = BASE_URL + "v1/channels/\(id)/items"
@@ -49,7 +50,7 @@ class KKNetworkTool: NSObject {
     
    }
     
-    //首页顶部
+    //首页顶部topic
     func requestHomeTopData(finished:@escaping (_ channels:[KKChannel]) -> ()) {
 
         let url = BASE_URL + KKTopData

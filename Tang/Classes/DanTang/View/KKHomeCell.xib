@@ -27,8 +27,8 @@
                             <constraint firstAttribute="height" constant="21" id="GdH-rp-lax"/>
                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="H1g-Nj-Llt"/>
                         </constraints>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jao-5v-eBF">
@@ -38,7 +38,7 @@
                         </constraints>
                         <state key="normal" title="1000" image="Feed_FavoriteIcon_17x17_"/>
                         <connections>
-                            <action selector="favouriteClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="EnQ-4h-sXw"/>
+                            <action selector="favourAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="6VG-oq-8C0"/>
                         </connections>
                     </button>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TYw-Lc-oCx">

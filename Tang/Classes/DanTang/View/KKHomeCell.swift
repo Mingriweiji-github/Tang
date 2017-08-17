@@ -36,7 +36,7 @@ class KKHomeCell: UITableViewCell {
                 self.placeHolderButton.isHidden = true
             }
             titleLabel.text = homeItem?.title
-            favouriteBtn.setTitle(" " + String(describing: homeItem?.likes_count), for: .normal)
+            favouriteBtn.setTitle(" " + String(describing: homeItem!.likes_count!), for: .normal)
         }
     }
     
@@ -55,11 +55,10 @@ class KKHomeCell: UITableViewCell {
         
     }
 
-    @IBAction func favouriteClicked(sender: UIButton) {
-    
+    @IBAction func favourAction(_ sender: UIButton) {
         delegate?.homeCellDidClickedFavouriteButton(button:sender)
-    
     }
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 

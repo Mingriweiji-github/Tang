@@ -8,41 +8,67 @@
 
 import UIKit
 
-class KKTopicViewController: UITableViewController {
+class KKTopicViewController: UITableViewController,KKHomeCellDelegate{
     var type = Int()
     var itmes = [KKHomeItem]()
-    let homeCellIdentifier = "homeCellIdentifier"
+    let homeCellIdentifier = "KKHomeCell"
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        view.backgroundColor = KKRedColor()
         setupTableView()
-        
+        refreshControl?.addTarget(self, action: #selector(reloadHomeInfo), for: .valueChanged)
+
+        //刷新
         weak var weakSelf = self
         KKNetworkTool.sharedInstance.requestHomeData(id: type) { (homeItmes) in
             weakSelf!.itmes = homeItmes
-            
-            
+            weakSelf!.tableView.reloadData()
         }
-        
-
     }
 
-    func setupTableView(){
+    func reloadHomeInfo(){
     
-        tableView.rowHeight = 140
+        weak var weakSelf = self
+        KKNetworkTool.sharedInstance.requestHomeData(id: type) { (homeItem) in
+            weakSelf?.itmes = homeItem
+            weakSelf?.tableView.reloadData()
+            weakSelf?.refreshControl?.endRefreshing()
+        }
+    }
+    
+    func setupTableView(){
+        tableView.rowHeight = 160
         tableView.separatorStyle = .none
-        
-        tableView.register(UINib(nibName:String(describing: KKHomeCell.self), bundle: nil), forCellReuseIdentifier: "KKHomeCell")
+        tableView.contentInset = UIEdgeInsetsMake(64 + 35, 0, (tabBarController?.tabBar.height)!, 0)
+        tableView.scrollIndicatorInsets = tableView.contentInset
+        tableView.register(UINib(nibName:String(describing: KKHomeCell.self), bundle: nil), forCellReuseIdentifier: homeCellIdentifier)
+        tableView.delegate = self
+        tableView.dataSource = self
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return itmes.count
     }
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
         let homeCell = tableView.dequeueReusableCell(withIdentifier: homeCellIdentifier, for: indexPath) as! KKHomeCell
+        
+        homeCell.selectionStyle = .none
+        homeCell.homeItem = itmes[indexPath.row]
+        homeCell.delegate = self
         
         return homeCell
     }
+    //tableDelegate
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+    }
     
+    //homeCell Delegate
+    func homeCellDidClickedFavouriteButton(button:UIButton){
+    
+        print("HomeCellDelegate implement")
+    }
 }

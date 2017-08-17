@@ -22,6 +22,7 @@ let BASE_URL = "http://api.dantangapp.com/"
 let KKTopData = "v2/channels/preset"
 
 let ReturnCode200 = 200
+let kAnimationDuration = 0.25
 
 //RGB
 func KKColor(r:CGFloat,g:CGFloat,b:CGFloat,aplha:CGFloat)->UIColor{
