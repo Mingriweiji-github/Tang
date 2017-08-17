@@ -18,7 +18,6 @@
 		C74F7C861F42CAB900DEABAF /* KKConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74F7C851F42CAB900DEABAF /* KKConst.swift */; };
 		C74F7C881F42E4FE00DEABAF /* KKTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74F7C871F42E4FE00DEABAF /* KKTabBarController.swift */; };
 		C74F7C8A1F42E66F00DEABAF /* KKNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74F7C891F42E66F00DEABAF /* KKNavigationController.swift */; };
-		C74F7C8E1F42ED9B00DEABAF /* KKProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74F7C8D1F42ED9B00DEABAF /* KKProductViewController.swift */; };
 		C74F7C901F42EDE700DEABAF /* KKCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74F7C8F1F42EDE700DEABAF /* KKCategoryViewController.swift */; };
 		C74F7C921F42EE0900DEABAF /* KKMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74F7C911F42EE0900DEABAF /* KKMeViewController.swift */; };
 		C74F7C941F42F8C600DEABAF /* KKNetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74F7C931F42F8C600DEABAF /* KKNetworkTool.swift */; };
@@ -31,6 +30,9 @@
 		C74F7CA51F44345B00DEABAF /* KKHomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C74F7CA31F44345B00DEABAF /* KKHomeCell.xib */; };
 		C74F7CA81F4441ED00DEABAF /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74F7CA71F4441ED00DEABAF /* UIView+Extension.swift */; };
 		C7560C031F458F5F00F31DDB /* KKDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7560C021F458F5F00F31DDB /* KKDetailViewController.swift */; };
+		C7560C081F4598D700F31DDB /* KKProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7560C071F4598D700F31DDB /* KKProductViewController.swift */; };
+		C7560C0B1F459BED00F31DDB /* KKProductCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7560C091F459BED00F31DDB /* KKProductCollectionCell.swift */; };
+		C7560C0C1F459BED00F31DDB /* KKProductCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7560C0A1F459BED00F31DDB /* KKProductCollectionCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +71,6 @@
 		C74F7C851F42CAB900DEABAF /* KKConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKConst.swift; sourceTree = "<group>"; };
 		C74F7C871F42E4FE00DEABAF /* KKTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKTabBarController.swift; sourceTree = "<group>"; };
 		C74F7C891F42E66F00DEABAF /* KKNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKNavigationController.swift; sourceTree = "<group>"; };
-		C74F7C8D1F42ED9B00DEABAF /* KKProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKProductViewController.swift; sourceTree = "<group>"; };
 		C74F7C8F1F42EDE700DEABAF /* KKCategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKCategoryViewController.swift; sourceTree = "<group>"; };
 		C74F7C911F42EE0900DEABAF /* KKMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKMeViewController.swift; sourceTree = "<group>"; };
 		C74F7C931F42F8C600DEABAF /* KKNetworkTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKNetworkTool.swift; sourceTree = "<group>"; };
@@ -82,6 +83,9 @@
 		C74F7CA31F44345B00DEABAF /* KKHomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KKHomeCell.xib; sourceTree = "<group>"; };
 		C74F7CA71F4441ED00DEABAF /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		C7560C021F458F5F00F31DDB /* KKDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKDetailViewController.swift; sourceTree = "<group>"; };
+		C7560C071F4598D700F31DDB /* KKProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKProductViewController.swift; sourceTree = "<group>"; };
+		C7560C091F459BED00F31DDB /* KKProductCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKProductCollectionCell.swift; sourceTree = "<group>"; };
+		C7560C0A1F459BED00F31DDB /* KKProductCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KKProductCollectionCell.xib; sourceTree = "<group>"; };
 		DAC1A6BDDF635B955F1FF470 /* Pods-Tang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tang.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tang/Pods-Tang.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -248,7 +252,9 @@
 		C74F7C7C1F42C67400DEABAF /* Product */ = {
 			isa = PBXGroup;
 			children = (
-				C74F7C8D1F42ED9B00DEABAF /* KKProductViewController.swift */,
+				C7560C061F4598B200F31DDB /* ViewController */,
+				C7560C041F4598B200F31DDB /* Model */,
+				C7560C051F4598B200F31DDB /* View */,
 			);
 			path = Product;
 			sourceTree = "<group>";
@@ -307,6 +313,30 @@
 				C74F7CA71F4441ED00DEABAF /* UIView+Extension.swift */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		C7560C041F4598B200F31DDB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C7560C051F4598B200F31DDB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C7560C091F459BED00F31DDB /* KKProductCollectionCell.swift */,
+				C7560C0A1F459BED00F31DDB /* KKProductCollectionCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C7560C061F4598B200F31DDB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C7560C071F4598D700F31DDB /* KKProductViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -423,6 +453,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C74F7C521F42C4CA00DEABAF /* LaunchScreen.storyboard in Resources */,
+				C7560C0C1F459BED00F31DDB /* KKProductCollectionCell.xib in Resources */,
 				C74F7C4F1F42C4CA00DEABAF /* Assets.xcassets in Resources */,
 				C74F7CA51F44345B00DEABAF /* KKHomeCell.xib in Resources */,
 				C74F7C4D1F42C4CA00DEABAF /* Main.storyboard in Resources */,
@@ -507,9 +538,10 @@
 				C74F7C861F42CAB900DEABAF /* KKConst.swift in Sources */,
 				C74F7CA41F44345B00DEABAF /* KKHomeCell.swift in Sources */,
 				C74F7C481F42C4CA00DEABAF /* AppDelegate.swift in Sources */,
+				C7560C081F4598D700F31DDB /* KKProductViewController.swift in Sources */,
 				C74F7C901F42EDE700DEABAF /* KKCategoryViewController.swift in Sources */,
+				C7560C0B1F459BED00F31DDB /* KKProductCollectionCell.swift in Sources */,
 				C74F7C821F42C78B00DEABAF /* KKBaseViewController.swift in Sources */,
-				C74F7C8E1F42ED9B00DEABAF /* KKProductViewController.swift in Sources */,
 				C74F7C991F42F9B200DEABAF /* DanTangViewController.swift in Sources */,
 				C74F7C941F42F8C600DEABAF /* KKNetworkTool.swift in Sources */,
 				C74F7C921F42EE0900DEABAF /* KKMeViewController.swift in Sources */,
