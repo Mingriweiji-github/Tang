@@ -68,5 +68,11 @@ class KKProductViewController: KKBaseViewController,UICollectionViewDelegate,UIC
         return UIEdgeInsetsMake(5, 5, 5, 5)
     }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let  vc = KKProductDetainController()
+        vc.product = products[indexPath.row]
+        vc.title = "商品详情"
+        navigationController?.pushViewController(vc, animated: true)
+    }
     
 }

@@ -34,6 +34,16 @@
 		C7560C0B1F459BED00F31DDB /* KKProductCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7560C091F459BED00F31DDB /* KKProductCollectionCell.swift */; };
 		C7560C0C1F459BED00F31DDB /* KKProductCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7560C0A1F459BED00F31DDB /* KKProductCollectionCell.xib */; };
 		C7560C0E1F45A17900F31DDB /* KKProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7560C0D1F45A17900F31DDB /* KKProductModel.swift */; };
+		C7F2169A1F46CAEE000E4CC1 /* KKProductDetainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F216991F46CAEE000E4CC1 /* KKProductDetainController.swift */; };
+		C7F2169C1F46CC0A000E4CC1 /* KKProductDetailScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F2169B1F46CC0A000E4CC1 /* KKProductDetailScrollView.swift */; };
+		C7F2169E1F46CC80000E4CC1 /* KKProductDetailTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F2169D1F46CC80000E4CC1 /* KKProductDetailTopView.swift */; };
+		C7F216A11F46D0C5000E4CC1 /* KKDetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F2169F1F46D0C4000E4CC1 /* KKDetailCollectionViewCell.swift */; };
+		C7F216A21F46D0C5000E4CC1 /* KKDetailCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7F216A01F46D0C4000E4CC1 /* KKDetailCollectionViewCell.xib */; };
+		C7F216A41F46DB3A000E4CC1 /* KKProductDetailBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F216A31F46DB3A000E4CC1 /* KKProductDetailBottomView.swift */; };
+		C7F216A61F46DC49000E4CC1 /* KKDetailChoiceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F216A51F46DC49000E4CC1 /* KKDetailChoiceButton.swift */; };
+		C7F216A81F46DC70000E4CC1 /* KKDetailChoiceButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7F216A71F46DC70000E4CC1 /* KKDetailChoiceButton.xib */; };
+		C7F216AA1F46E541000E4CC1 /* KKProductDetailToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F216A91F46E541000E4CC1 /* KKProductDetailToolBar.swift */; };
+		C7F216AC1F46E54D000E4CC1 /* KKProductDetailToolBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7F216AB1F46E54D000E4CC1 /* KKProductDetailToolBar.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +98,16 @@
 		C7560C091F459BED00F31DDB /* KKProductCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKProductCollectionCell.swift; sourceTree = "<group>"; };
 		C7560C0A1F459BED00F31DDB /* KKProductCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KKProductCollectionCell.xib; sourceTree = "<group>"; };
 		C7560C0D1F45A17900F31DDB /* KKProductModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKProductModel.swift; sourceTree = "<group>"; };
+		C7F216991F46CAEE000E4CC1 /* KKProductDetainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKProductDetainController.swift; sourceTree = "<group>"; };
+		C7F2169B1F46CC0A000E4CC1 /* KKProductDetailScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKProductDetailScrollView.swift; sourceTree = "<group>"; };
+		C7F2169D1F46CC80000E4CC1 /* KKProductDetailTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKProductDetailTopView.swift; sourceTree = "<group>"; };
+		C7F2169F1F46D0C4000E4CC1 /* KKDetailCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKDetailCollectionViewCell.swift; sourceTree = "<group>"; };
+		C7F216A01F46D0C4000E4CC1 /* KKDetailCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KKDetailCollectionViewCell.xib; sourceTree = "<group>"; };
+		C7F216A31F46DB3A000E4CC1 /* KKProductDetailBottomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKProductDetailBottomView.swift; sourceTree = "<group>"; };
+		C7F216A51F46DC49000E4CC1 /* KKDetailChoiceButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKDetailChoiceButton.swift; sourceTree = "<group>"; };
+		C7F216A71F46DC70000E4CC1 /* KKDetailChoiceButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KKDetailChoiceButton.xib; sourceTree = "<group>"; };
+		C7F216A91F46E541000E4CC1 /* KKProductDetailToolBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKProductDetailToolBar.swift; sourceTree = "<group>"; };
+		C7F216AB1F46E54D000E4CC1 /* KKProductDetailToolBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KKProductDetailToolBar.xib; sourceTree = "<group>"; };
 		DAC1A6BDDF635B955F1FF470 /* Pods-Tang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tang.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tang/Pods-Tang.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -330,6 +350,15 @@
 			children = (
 				C7560C091F459BED00F31DDB /* KKProductCollectionCell.swift */,
 				C7560C0A1F459BED00F31DDB /* KKProductCollectionCell.xib */,
+				C7F2169B1F46CC0A000E4CC1 /* KKProductDetailScrollView.swift */,
+				C7F2169D1F46CC80000E4CC1 /* KKProductDetailTopView.swift */,
+				C7F216A31F46DB3A000E4CC1 /* KKProductDetailBottomView.swift */,
+				C7F216A91F46E541000E4CC1 /* KKProductDetailToolBar.swift */,
+				C7F216AB1F46E54D000E4CC1 /* KKProductDetailToolBar.xib */,
+				C7F216A51F46DC49000E4CC1 /* KKDetailChoiceButton.swift */,
+				C7F216A71F46DC70000E4CC1 /* KKDetailChoiceButton.xib */,
+				C7F2169F1F46D0C4000E4CC1 /* KKDetailCollectionViewCell.swift */,
+				C7F216A01F46D0C4000E4CC1 /* KKDetailCollectionViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -338,6 +367,7 @@
 			isa = PBXGroup;
 			children = (
 				C7560C071F4598D700F31DDB /* KKProductViewController.swift */,
+				C7F216991F46CAEE000E4CC1 /* KKProductDetainController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -455,10 +485,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7F216AC1F46E54D000E4CC1 /* KKProductDetailToolBar.xib in Resources */,
 				C74F7C521F42C4CA00DEABAF /* LaunchScreen.storyboard in Resources */,
+				C7F216A21F46D0C5000E4CC1 /* KKDetailCollectionViewCell.xib in Resources */,
 				C7560C0C1F459BED00F31DDB /* KKProductCollectionCell.xib in Resources */,
 				C74F7C4F1F42C4CA00DEABAF /* Assets.xcassets in Resources */,
 				C74F7CA51F44345B00DEABAF /* KKHomeCell.xib in Resources */,
+				C7F216A81F46DC70000E4CC1 /* KKDetailChoiceButton.xib in Resources */,
 				C74F7C4D1F42C4CA00DEABAF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -532,7 +565,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7F2169C1F46CC0A000E4CC1 /* KKProductDetailScrollView.swift in Sources */,
 				C74F7C9F1F442EFC00DEABAF /* KKChannel.swift in Sources */,
+				C7F216A61F46DC49000E4CC1 /* KKDetailChoiceButton.swift in Sources */,
 				C7560C031F458F5F00F31DDB /* KKDetailViewController.swift in Sources */,
 				C74F7C9B1F42F9CA00DEABAF /* KKHomeItem.swift in Sources */,
 				C74F7CA81F4441ED00DEABAF /* UIView+Extension.swift in Sources */,
@@ -545,9 +580,14 @@
 				C7560C081F4598D700F31DDB /* KKProductViewController.swift in Sources */,
 				C74F7C901F42EDE700DEABAF /* KKCategoryViewController.swift in Sources */,
 				C7560C0B1F459BED00F31DDB /* KKProductCollectionCell.swift in Sources */,
+				C7F216A11F46D0C5000E4CC1 /* KKDetailCollectionViewCell.swift in Sources */,
 				C74F7C821F42C78B00DEABAF /* KKBaseViewController.swift in Sources */,
+				C7F2169E1F46CC80000E4CC1 /* KKProductDetailTopView.swift in Sources */,
+				C7F2169A1F46CAEE000E4CC1 /* KKProductDetainController.swift in Sources */,
 				C74F7C991F42F9B200DEABAF /* DanTangViewController.swift in Sources */,
+				C7F216AA1F46E541000E4CC1 /* KKProductDetailToolBar.swift in Sources */,
 				C74F7C941F42F8C600DEABAF /* KKNetworkTool.swift in Sources */,
+				C7F216A41F46DB3A000E4CC1 /* KKProductDetailBottomView.swift in Sources */,
 				C74F7C921F42EE0900DEABAF /* KKMeViewController.swift in Sources */,
 				C74F7CA11F44336E00DEABAF /* KKTopicViewController.swift in Sources */,
 				C74F7C881F42E4FE00DEABAF /* KKTabBarController.swift in Sources */,
