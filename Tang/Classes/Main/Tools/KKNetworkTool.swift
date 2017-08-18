@@ -27,7 +27,7 @@ class KKNetworkTool: NSObject {
                 SVProgressHUD.showError(withStatus: "请求首页失败")
                 return
             }
-            print("首页数据\(response)")
+//            print("首页数据\(response)")
             if let value = response.result.value{
                 let dict = JSON(value)
                 let code = dict["code"].intValue
@@ -102,10 +102,39 @@ class KKNetworkTool: NSObject {
             SVProgressHUD.showError(withStatus: "加载失败...")
                 return
             }
+            if let value = response.result.value{
+                
+                let dict = JSON(value)
+                let code = dict["code"].intValue
+                let message = dict["message"].stringValue
+                guard code == ReturnCode200 else{
+                    SVProgressHUD.showInfo(withStatus: message)
+                    return
+                }
+                SVProgressHUD.dismiss()
+                if let data = dict["data"].dictionary{
+                
+                    if let items = data["items"]?.arrayObject{
                         
+                        var products = [KKProductModel]()
+                        
+                        for item in items{
+                            let itemDic = item as! [String:AnyObject]
+                            if let itemData = itemDic["data"]{
+                                let product = KKProductModel(dict: itemData as! [String:AnyObject])
+                                products.append(product)
+                            }
+                        }
+                        
+                        finished(products)
+                        
+                    }
+                }
+            }
         }
         
     }
+    
     
     
     

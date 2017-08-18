@@ -25,7 +25,6 @@ class DanTangViewController: KKBaseViewController ,UIScrollViewDelegate{
 
         // Do any additional setup after loading the view.
         
-        print("进来了")
         setupNav()
 
         weak var weakSelf = self

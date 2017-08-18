@@ -10,20 +10,33 @@ import UIKit
 
 class KKProductViewController: KKBaseViewController,UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout {
 
-    weak var collectionView:UICollectionView?
+    
     let cellIdentifier = "ProductCollectionCellID"
+
+    weak var collectionView: UICollectionView?
+    
+    var products = [KKProductModel]()
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-
+        setupCollectionView()
+        loadData()
     }
-
+    //Data
+    private func loadData(){
+        weak var weakSelf = self
+        KKNetworkTool.sharedInstance.requestProductData { (products) in
+//            print("products:\(products)")
+            weakSelf?.products = products
+            weakSelf?.collectionView?.reloadData()
+        }
+    }
     //Setup
     private func setupCollectionView(){
         
-        let collectionView = UICollectionView(frame: view.bounds, collectionViewLayout: UICollectionViewLayout())
+        let collectionView = UICollectionView(frame: view.bounds, collectionViewLayout: UICollectionViewFlowLayout())
         collectionView.delegate = self
         collectionView.dataSource = self
         collectionView.backgroundColor = view.backgroundColor
@@ -31,16 +44,17 @@ class KKProductViewController: KKBaseViewController,UICollectionViewDelegate,UIC
         self.collectionView = collectionView
         //register
         let nib = UINib(nibName: String(describing: KKProductCollectionCell.self), bundle: nil)
-        
         collectionView.register(nib, forCellWithReuseIdentifier: cellIdentifier)
     }
     
     // data Source
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 0
+        return self.products.count
     }
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellIdentifier, for: indexPath)
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellIdentifier, for: indexPath) as! KKProductCollectionCell
+        
+        cell.product = products[indexPath.row]
         
         return cell
     }
