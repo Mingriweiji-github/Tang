@@ -44,6 +44,8 @@
 		C7F216A81F46DC70000E4CC1 /* KKDetailChoiceButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7F216A71F46DC70000E4CC1 /* KKDetailChoiceButton.xib */; };
 		C7F216AA1F46E541000E4CC1 /* KKProductDetailToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F216A91F46E541000E4CC1 /* KKProductDetailToolBar.swift */; };
 		C7F216AC1F46E54D000E4CC1 /* KKProductDetailToolBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7F216AB1F46E54D000E4CC1 /* KKProductDetailToolBar.xib */; };
+		C7F216AF1F46F456000E4CC1 /* KKCommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F216AD1F46F456000E4CC1 /* KKCommentCell.swift */; };
+		C7F216B01F46F456000E4CC1 /* KKCommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7F216AE1F46F456000E4CC1 /* KKCommentCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,6 +110,8 @@
 		C7F216A71F46DC70000E4CC1 /* KKDetailChoiceButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KKDetailChoiceButton.xib; sourceTree = "<group>"; };
 		C7F216A91F46E541000E4CC1 /* KKProductDetailToolBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKProductDetailToolBar.swift; sourceTree = "<group>"; };
 		C7F216AB1F46E54D000E4CC1 /* KKProductDetailToolBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KKProductDetailToolBar.xib; sourceTree = "<group>"; };
+		C7F216AD1F46F456000E4CC1 /* KKCommentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKCommentCell.swift; sourceTree = "<group>"; };
+		C7F216AE1F46F456000E4CC1 /* KKCommentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KKCommentCell.xib; sourceTree = "<group>"; };
 		DAC1A6BDDF635B955F1FF470 /* Pods-Tang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tang.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tang/Pods-Tang.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -353,6 +357,8 @@
 				C7F2169B1F46CC0A000E4CC1 /* KKProductDetailScrollView.swift */,
 				C7F2169D1F46CC80000E4CC1 /* KKProductDetailTopView.swift */,
 				C7F216A31F46DB3A000E4CC1 /* KKProductDetailBottomView.swift */,
+				C7F216AD1F46F456000E4CC1 /* KKCommentCell.swift */,
+				C7F216AE1F46F456000E4CC1 /* KKCommentCell.xib */,
 				C7F216A91F46E541000E4CC1 /* KKProductDetailToolBar.swift */,
 				C7F216AB1F46E54D000E4CC1 /* KKProductDetailToolBar.xib */,
 				C7F216A51F46DC49000E4CC1 /* KKDetailChoiceButton.swift */,
@@ -485,6 +491,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7F216B01F46F456000E4CC1 /* KKCommentCell.xib in Resources */,
 				C7F216AC1F46E54D000E4CC1 /* KKProductDetailToolBar.xib in Resources */,
 				C74F7C521F42C4CA00DEABAF /* LaunchScreen.storyboard in Resources */,
 				C7F216A21F46D0C5000E4CC1 /* KKDetailCollectionViewCell.xib in Resources */,
@@ -574,6 +581,7 @@
 				C74F7C9D1F44281100DEABAF /* YMTabBarController.swift in Sources */,
 				C74F7C8A1F42E66F00DEABAF /* KKNavigationController.swift in Sources */,
 				C74F7C861F42CAB900DEABAF /* KKConst.swift in Sources */,
+				C7F216AF1F46F456000E4CC1 /* KKCommentCell.swift in Sources */,
 				C74F7CA41F44345B00DEABAF /* KKHomeCell.swift in Sources */,
 				C7560C0E1F45A17900F31DDB /* KKProductModel.swift in Sources */,
 				C74F7C481F42C4CA00DEABAF /* AppDelegate.swift in Sources */,

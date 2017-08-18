@@ -48,7 +48,9 @@ class KKProductDetainController: KKBaseViewController,DetailToolBarDelegate{
         return scrollView
     }()
     
-    lazy var toolBar: KKProductDetailToolBar = {
+   
+   private lazy var toolBar: KKProductDetailToolBar = {
+    
         //mark: 'init' has been renamed to 'init(describing:)'
         let toolBar = Bundle.main.loadNibNamed(String(describing:KKProductDetailToolBar.self), owner: nil, options: nil)?.last as! KKProductDetailToolBar
         toolBar.delegate = self

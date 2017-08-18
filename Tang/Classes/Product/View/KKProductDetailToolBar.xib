@@ -35,6 +35,7 @@
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="30" id="3JF-nE-EOg"/>
+                        <constraint firstItem="bdS-mI-Q2U" firstAttribute="height" secondItem="akl-Gf-KXI" secondAttribute="height" id="55x-1n-9yc"/>
                         <constraint firstItem="bdS-mI-Q2U" firstAttribute="top" secondItem="akl-Gf-KXI" secondAttribute="top" id="AfD-Nf-Jdr"/>
                         <constraint firstAttribute="bottom" secondItem="bdS-mI-Q2U" secondAttribute="bottom" id="B0B-DY-Rc6"/>
                         <constraint firstAttribute="trailing" secondItem="bdS-mI-Q2U" secondAttribute="trailing" constant="20" id="TP9-fY-gyq"/>
@@ -47,6 +48,9 @@
                 <constraint firstItem="akl-Gf-KXI" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="LXy-SP-ZYn"/>
                 <constraint firstAttribute="trailing" secondItem="akl-Gf-KXI" secondAttribute="trailing" id="kwR-ia-aUU"/>
             </constraints>
+            <connections>
+                <outlet property="buyMaollBtn" destination="bdS-mI-Q2U" id="HCb-oj-i0r"/>
+            </connections>
             <point key="canvasLocation" x="186" y="-41"/>
         </view>
     </objects>
