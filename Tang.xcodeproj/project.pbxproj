@@ -35,6 +35,7 @@
 		C7560C0C1F459BED00F31DDB /* KKProductCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7560C0A1F459BED00F31DDB /* KKProductCollectionCell.xib */; };
 		C7560C0E1F45A17900F31DDB /* KKProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7560C0D1F45A17900F31DDB /* KKProductModel.swift */; };
 		C7730D8F1F4A7A36008BC19F /* KKProductDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7730D8E1F4A7A36008BC19F /* KKProductDetail.swift */; };
+		C7730D911F4A7ECD008BC19F /* KKComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7730D901F4A7ECD008BC19F /* KKComment.swift */; };
 		C7F2169A1F46CAEE000E4CC1 /* KKProductDetainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F216991F46CAEE000E4CC1 /* KKProductDetainController.swift */; };
 		C7F2169C1F46CC0A000E4CC1 /* KKProductDetailScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F2169B1F46CC0A000E4CC1 /* KKProductDetailScrollView.swift */; };
 		C7F2169E1F46CC80000E4CC1 /* KKProductDetailTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F2169D1F46CC80000E4CC1 /* KKProductDetailTopView.swift */; };
@@ -102,6 +103,7 @@
 		C7560C0A1F459BED00F31DDB /* KKProductCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KKProductCollectionCell.xib; sourceTree = "<group>"; };
 		C7560C0D1F45A17900F31DDB /* KKProductModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKProductModel.swift; sourceTree = "<group>"; };
 		C7730D8E1F4A7A36008BC19F /* KKProductDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKProductDetail.swift; sourceTree = "<group>"; };
+		C7730D901F4A7ECD008BC19F /* KKComment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKComment.swift; sourceTree = "<group>"; };
 		C7F216991F46CAEE000E4CC1 /* KKProductDetainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKProductDetainController.swift; sourceTree = "<group>"; };
 		C7F2169B1F46CC0A000E4CC1 /* KKProductDetailScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKProductDetailScrollView.swift; sourceTree = "<group>"; };
 		C7F2169D1F46CC80000E4CC1 /* KKProductDetailTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKProductDetailTopView.swift; sourceTree = "<group>"; };
@@ -348,6 +350,7 @@
 			children = (
 				C7560C0D1F45A17900F31DDB /* KKProductModel.swift */,
 				C7730D8E1F4A7A36008BC19F /* KKProductDetail.swift */,
+				C7730D901F4A7ECD008BC19F /* KKComment.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -587,6 +590,7 @@
 				C74F7C861F42CAB900DEABAF /* KKConst.swift in Sources */,
 				C7F216AF1F46F456000E4CC1 /* KKCommentCell.swift in Sources */,
 				C74F7CA41F44345B00DEABAF /* KKHomeCell.swift in Sources */,
+				C7730D911F4A7ECD008BC19F /* KKComment.swift in Sources */,
 				C7560C0E1F45A17900F31DDB /* KKProductModel.swift in Sources */,
 				C74F7C481F42C4CA00DEABAF /* AppDelegate.swift in Sources */,
 				C7560C081F4598D700F31DDB /* KKProductViewController.swift in Sources */,

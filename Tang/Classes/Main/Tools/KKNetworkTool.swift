@@ -166,9 +166,41 @@ class KKNetworkTool: NSObject {
 
     }
     
+    //评论
+    func requestCommentData(id:Int,finished:@escaping (_ comment:[KKComment])->()){
     
-    
-    
+        SVProgressHUD.show(withStatus: "正在加载...")
+        let url = BASE_URL + "v2/items/\(id)/comments"
+        let params = ["limit": 20,
+                      "offset": 0]
+        Alamofire.request(url,parameters:params).responseJSON { (response) in
+            guard response.result.isSuccess else{
+                SVProgressHUD.showError(withStatus: "加载失败...")
+                return
+            }
+            if let value = response.result.value{
+                let dict = JSON(value)
+                let code = dict["code"].intValue
+                let message = dict["message"].stringValue
+                guard code == ReturnCode200 else{
+                    SVProgressHUD.showInfo(withStatus: message)
+                    return
+                }
+                if let data = dict["data"].dictionary{
+                    if let commentsData = data["comments"]?.arrayObject{
+                        var comments = [KKComment]()
+                        for item in commentsData{
+                            let comment = KKComment(dict: item as! [String:AnyObject])
+                            comments.append(comment)
+                        }
+                        finished(comments)
+                    }
+                }
+            }
+            
+        }
+        
+    }
     
 }
 

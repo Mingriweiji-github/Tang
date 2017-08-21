@@ -12,18 +12,20 @@ let CellIDentifer = "KKCommentCell"
 
 class KKProductDetailBottomView: UIView ,DetailChoiceDelegate,UITableViewDelegate,UITableViewDataSource,UIWebViewDelegate{
 
+    var comments = [KKComment]()
+    
+    
     var product:KKProductModel?{
     
         didSet{
             weak var weakSelf = self
             KKNetworkTool.sharedInstance.requestProductDetail(id: product!.id!) { (productDetail) in
-                
                 weakSelf?.webView.loadHTMLString(productDetail.detail_html!, baseURL: nil)
-                
             }
-            
-        
-            
+            KKNetworkTool.sharedInstance.requestCommentData(id: product!.id!) { (comments) in
+                weakSelf?.comments = comments
+                weakSelf?.commentTableView.reloadData()
+            }
         }
     }
     
@@ -68,6 +70,8 @@ class KKProductDetailBottomView: UIView ,DetailChoiceDelegate,UITableViewDelegat
     
     lazy var commentTableView: UITableView = {
         let commentTableView = UITableView()
+        commentTableView.rowHeight = 64
+        
         commentTableView.delegate = self
         commentTableView.dataSource = self
         commentTableView.isHidden = true
@@ -95,22 +99,22 @@ class KKProductDetailBottomView: UIView ,DetailChoiceDelegate,UITableViewDelegat
     
     //tableViewDelegate
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        
-        return 00
+        return comments.count
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let  commentCell = tableView.dequeueReusableCell(withIdentifier: CellIDentifer, for: indexPath)
-        
+        let  commentCell = tableView.dequeueReusableCell(withIdentifier: CellIDentifer, for: indexPath) as! KKCommentCell
+        commentCell.comment = comments[indexPath.row]
         return commentCell
     }
     
     //DetailChoiceDelegate
     func commentButtonClicked(){
-    
+        webView.isHidden = true
+        commentTableView.isHidden = false
         
     }
     func introduceButtonClicked(){
-    
-        
+        webView.isHidden = false
+        commentTableView.isHidden = true
     }
 }
