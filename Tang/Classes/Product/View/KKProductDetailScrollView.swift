@@ -15,7 +15,7 @@ class KKProductDetailScrollView: UIScrollView {
         didSet{
         
             topScrollView.product = product
-            topScrollView.product = product
+            bottomScrollView.product = product
         }
         
     }
@@ -34,7 +34,7 @@ class KKProductDetailScrollView: UIScrollView {
         bottomScrollView.snp.makeConstraints { (make) in
             make.top.equalTo(topScrollView.snp.bottom)
             make.left.equalTo(self)
-            make.size.equalTo(CGSize(width: KScreenW, height: KScreenH - 64 - 50))
+            make.size.equalTo(CGSize(width: KScreenW, height: KScreenH - 64 - 45))
         }
     }
     

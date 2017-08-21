@@ -134,7 +134,37 @@ class KKNetworkTool: NSObject {
         }
         
     }
-    
+    //单品详情
+    func requestProductDetail(id:Int,finished:@escaping ((_ pruductDetail:KKProductDetail) -> ())){
+        SVProgressHUD.show(withStatus: "加载中...")
+        let url = BASE_URL + "v2/items/\(id)"
+        
+        Alamofire
+            .request(url)
+            .responseJSON { (response) in
+                
+                guard response.result.isSuccess else {
+                    SVProgressHUD.showError(withStatus: "加载失败...")
+                    return
+                }
+                if let value = response.result.value{
+                
+                    let dict = JSON(value)
+                    let code = dict["code"].intValue
+                    let message = dict["message"].stringValue
+                    guard code == ReturnCode200 else{
+                        SVProgressHUD.showInfo(withStatus: message)
+                        return
+                    }
+                    SVProgressHUD.dismiss()
+                    if let data = dict["data"].dictionaryObject{
+                        let productDetail = KKProductDetail(dict: data as [String:AnyObject])
+                        finished(productDetail)
+                    }
+                }
+        }
+
+    }
     
     
     

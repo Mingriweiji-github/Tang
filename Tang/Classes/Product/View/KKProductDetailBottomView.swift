@@ -12,6 +12,22 @@ let CellIDentifer = "KKCommentCell"
 
 class KKProductDetailBottomView: UIView ,DetailChoiceDelegate,UITableViewDelegate,UITableViewDataSource,UIWebViewDelegate{
 
+    var product:KKProductModel?{
+    
+        didSet{
+            weak var weakSelf = self
+            KKNetworkTool.sharedInstance.requestProductDetail(id: product!.id!) { (productDetail) in
+                
+                weakSelf?.webView.loadHTMLString(productDetail.detail_html!, baseURL: nil)
+                
+            }
+            
+        
+            
+        }
+    }
+    
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         
@@ -46,7 +62,6 @@ class KKProductDetailBottomView: UIView ,DetailChoiceDelegate,UITableViewDelegat
         let webView = UIWebView()
         webView.delegate = self
         webView.dataDetectorTypes = .all
-        
         webView.scalesPageToFit = true
         return webView
     }()

@@ -93,7 +93,7 @@ class KKProductDetailTopView: UIView ,UICollectionViewDelegate,UICollectionViewD
         collectionView.dataSource = self
         let nib = UINib(nibName: String(describing: KKDetailCollectionViewCell.self), bundle: nil)
         collectionView.register(nib, forCellWithReuseIdentifier:detailCollectionCell)
-        collectionView.backgroundColor = UIColor.lightGray
+        collectionView.backgroundColor = UIColor.white
         
         return collectionView
     }()
